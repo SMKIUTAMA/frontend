@@ -1,0 +1,65 @@
+body {
+  background-color: #d3cfcf; }
+
+.wrapper {
+  float: right;
+  margin-right: 200px; }
+
+.card {
+  border: 1px solid white;
+  margin: 10px;
+  width: 343px;
+  height: 413px;
+  background-color: white; }
+
+img {
+  width: 342px;
+  height: 274px; }
+
+.cardbody {
+  display: inline-block;
+  font-family: Roboto Black;
+  font-size: 18px;
+  width: 343px;
+  padding-right: 9px;
+  padding-left: 9px; }
+
+.discount {
+  font-family: Roboto Medium;
+  color: #ee1414;
+  font-weight: none;
+  text-decoration: line-through; }
+
+h4 {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: Roboto Medium;
+  margin-right: 9px;
+  color: #088508; }
+
+.value {
+  display: inline-block;
+  margin-left: 9px;
+  margin-bottom: 15px; }
+
+.right {
+  opacity: 0.4;
+  font-size: 15px; }
+
+.left {
+  opacity: 0.4;
+  font-size: 15px;
+  margin-top: 15px; }
+
+.icon {
+  opacity: 0.4;
+  width: 15px;
+  height: 15px;
+  margin-right: 9px;
+  margin-top: 9px; }
+
+.normal {
+  color: black;
+  opacity: 0.4; }
+
+/*# sourceMappingURL=style.css.map */

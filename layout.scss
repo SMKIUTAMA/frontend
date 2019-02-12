@@ -1,0 +1,87 @@
+$seluruh:lightblue;
+$main:black;
+$kiri:right;
+$potongan:rgb(238, 20, 20);
+$bag:rgb(255, 255, 255);
+$muted:rgb(211, 207, 207);
+$card:1px solid rgb(255, 255, 255);
+$tulisan:18px;
+$value :0.4;
+$hijau:rgb(8, 133, 8);
+$jenis:Roboto Black;
+$ukuran:10px;
+$x:342px;
+$y:274px;
+$style:none;
+$panjang:343px;
+$tinggi:413px;
+$lurus:inline-block;
+$harga:Roboto Medium;
+$rata:9px;
+$ikon:15px;
+body{
+    background-color: $muted;
+}
+.wrapper{
+    float:$kiri;
+    margin-right:200px;
+
+}
+
+.card{
+    border:$card;
+    margin:$ukuran;
+    width: $panjang;
+    height: $tinggi;
+    background-color:$bag ;
+}
+img{
+    width: $x;
+    height: $y;
+}
+.cardbody{ 
+    display: $lurus;
+    font-family:$jenis;
+    font-size: $tulisan;
+    width: $panjang;
+    padding-right:$rata;
+    padding-left:$rata;
+}
+.discount{
+ font-family: $harga;
+ color:$potongan;
+ font-weight: $style;
+ text-decoration:line-through;
+}
+h4{
+    margin-bottom: $ukuran;
+     display: $lurus;
+     font-family: $harga;
+     margin-right: $rata;
+     color: $hijau;
+}
+.value{
+    display:$lurus;
+    margin-left:$rata;
+    margin-bottom: $ikon;
+}
+.right{
+    opacity:$value;
+    font-size:$ikon;
+}
+.left{
+    opacity:$value;
+    font-size:$ikon;
+    margin-top: $ikon;
+}
+.icon{
+    opacity:$value;
+    width:$ikon;
+    height:$ikon;
+    margin-right: $rata;
+    margin-top: $rata;
+}
+.normal{
+    color: $main;
+    opacity:$value;
+}
